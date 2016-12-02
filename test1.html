@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/masonry-docs.min.js"></script>
+		<script src="js/jquery.aniview.js"></script>
+		<script language="javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+
+		
+		<link type="text/css" href="style.css" rel="stylesheet" />
+		<link type="text/css" href="animate.css" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<div id="linear">
+			<div id="top">
+				<a class="logo" href="img/16.png" target="_blank"><img src="img/18.jpg" width="300px" height="110px"> </a>
+				<section class="search">
+					<div class="ext"> <a href="#">FOR ANOTHER</a><br/>
+					  <br/>
+					  <input name="query" type="text" class="inp">
+					  <br/>
+					  <br/>
+					  <input name="ie" type="button" value="搜索 " class="btn">
+				  </div>
+<form id="searchForm" target="_blank" action="#">
+		<a href="javascript:;" onclick="searchSub();" class="thuicon-search btn"></a>
+	  </form>
+				</section>
+			</div>
+			<div id="above">
+				<div class="container">
+					<div class="nav">
+						<ul>
+							<li>STYLE 1
+								<ul class="drop-menu menu-4">
+									<li>ONE</li>
+									<li>TWO</li>
+									<li>THREE</li>
+									<li>FOUR</li>
+									 
+								</ul>
+							</li>
+							<li>STYLE 2
+								<ul class="drop-menu menu-4">
+									<li>ONE</li>
+									<li>TWO</li>
+									<li>THREE</li>
+									<li>FOUR</li>
+									 
+								</ul>
+							</li>
+							<li>STYLE 3
+								<ul class="drop-menu menu-4">
+									<li>ONE</li>
+									<li>TWO</li>
+									<li>THREE</li>
+									<li>FOUR</li>
+								 
+								</ul>
+							</li>
+							<li>STYLE 4
+								<ul class="drop-menu menu-4">
+									<li>ONE</li>
+									<li>TWO</li>
+									<li>THREE</li>
+									<li>FOUR</li>
+									 
+								</ul>
+							</li>
+							<li>STYLE 5
+								<ul class="drop-menu menu-4">
+									<li>ONE</li>
+									<li>TWO</li>
+									<li>THREE</li>
+									<li>FOUR</li>
+									 
+								</ul>
+							</li>
+							<li>STYLE 6
+								<ul class="drop-menu menu-4">
+									<li>ONE</li>
+									<li>TWO</li>
+									<li>THREE</li>
+									<li>FOUR</li>
+									 
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="fullSlide">
+					<div class="bd">
+						<ul>
+
+							<li style="background: url(img/9.jpg)  center 0 no-repeat; ">
+								<a href=""></a>
+							</li>
+							<li style="background: url(img/2.jpg)  center 0 no-repeat;">
+								<a href=""></a>
+							</li>
+							<li style="background: url(img/5.jpg)  center 0 no-repeat;">
+								<a href=""></a>
+							</li>
+							<li style="background: url(img/10.jpg)  center 0 no-repeat;">
+								<a href=""></a>
+							</li>
+
+						</ul>
+					</div>
+					<div class="hd">
+						<ul></ul>
+					</div>
+				</div>
+
+				<script type="text/javascript">
+					jQuery(".fullSlide").slide({
+						titCell: ".hd ul",
+						mainCell: ".bd ul",
+						effect: "fold",
+						interTime: 2000,
+						autoPlay: true,
+						autoPage: true,
+						trigger: "click"
+					});
+				</script>
+
+			</div>
+			<!--stsrt content-->
+			<div id="content1">
+				<div id="substitle1">
+					<h2> 作品介绍<a href="#" id="more"> more >> </a> </h2>
+
+				</div>
+				<div class="part">
+					<img src="img/24.jpg" width="100" height="100">
+					<div class="apart">
+
+						<h4><a href="#">《飞屋环游记》： <br/>谁扼杀了我们的想象力 </a></h4> ☆在我心里最美好的就是和你一起老在路上,捕捉最后的流星,坐在最高的山顶上,
+						<br/><br/>  听音乐,聊电影,吃东西....当日出越过山涧，我未老，你依然。
+					</div>
+				</div>
+				<div class="part">
+					<img src="img/15.jpg" width="100" height="100">
+					<div class="apart">
+						<h2><a href="#">凯尔经的秘密</a></h2>
+						<p> ☆踏进动物城，人人都怀揣着梦想，成为理想中的自己，但却一场空。<br/> <br/>梦儿追的我累，但是，我不愿后退，因为 我想象中的美，一定能擦去我心中的泪，梦是宝贝。</p>
+					</div>
+				</div>
+				<div class="part">
+					<img src="img/26.jpg" width="100" height="100">
+					<div class="apart">
+						<h2><a href="#">秒速5厘米</a></h2>
+						<p> ☆如果我现在有任何的超能力我希望那是能够穿过电话给你个大大的拥抱的能力。</p>
+						<br/> ☆ 我们有时并不想成为英雄，只是生活有时候超出我们的想象。
+					</div>
+				</div>
+			</div>
+			<!--end content1-->
+			<div id="content2">
+				<div id="substitle2">
+					<h2>焦点关注 </h2>
+				</div>
+				<div id="masonry" class="container-fluid">
+					<div  class="box aniview" id=".a1" data-av-animation="fadeIn">
+						<h3><a style="color:black; text-decoration: none;" href="#">生活不止眼前的苟且，还有诗和远方的田野</a></h3> 
+						2013年高晓松创作了《生活不止眼前的苟且》后，开始存放着。他认为歌通常都是写完了之后，放在一边好几年。过了一年如果还能想起这首歌，说明这首歌曲不错，如果忘了，就说能想起这首歌，说明这首歌曲不错，如果忘了，就说明是能想起这首歌，说明这首歌曲不错，如果忘了，就说明是能想起这首歌，说明这首歌曲不错，如果忘了，就说明是能想起这首歌，说明这首歌曲不错，如果忘了，就说明是明是能想起这首歌，说明这首歌曲不错，如果忘了，就说明是能想起这首歌，说明这首歌曲不错，如果忘了，就说明是能想起这首歌，说明这首歌曲不错，如果忘了，就说明是能想起这首歌，说明这首歌曲不错，如果忘了，就说明是能想起这首歌，说明这首歌曲不错，如果忘了，就说明是能想起这首歌，说明这首歌曲不错，如果忘了，就说明是首臭歌，那就忘了吧。于是他三年后想起了这首歌，并且跟许巍合作。
+					</div>
+					
+					<div class="box aniview" id=".a2" data-av-animation="slideInUp">
+						<a href="#"> <img src="img/12.jpg" width="300" height="100" alt="" /> </a>
+						梦想，是对未来的一种期望，指在现在想未来的事或是可以达到但必须努力才可以达到的境况。梦想就是一种让你感到坚持就是幸福的东西，甚至其可以视为一种信仰。梦想，是对未来的一种期望，指在现在想未来的事或是可以达到但必须努力才可以达到的境况。梦想就是一种让你感到坚持就是幸福的东西，甚至其可以视为一种信仰。梦想，是对未来的一种期望，指在现在想未来的事或是可以达到但必须努力才可以达到的境况。梦想就是一种让你感到坚持就是幸福的东西，甚至其可以视为一种信仰。
+					</div>
+					
+					<div  class="box aniview" id=".a3" data-av-animation="fadeIn">
+						<h2><a style="text-decoration: none;color: black;" href="#">牧羊少年奇幻之旅</a>  </h2> “畏惧忍受痛苦比忍受痛苦本身更加糟糕。没有一个心灵在追寻它的梦想时会忍受痛苦。”
+						<br/> 你的财宝其实就在你的身边，但只有经历过一番艰难险阻之后，你才会发现它。“畏惧忍受痛苦比忍受痛苦本身更加糟糕。没有一个心灵在追寻它的梦想时会忍受痛苦。”
+						<br/> 你的财宝其实就在你的身边，但只有经历过一番艰难险阻之后，你才会发现它。“畏惧忍受痛苦比忍受痛苦本身更加糟糕。没有一个心灵在追寻它的梦想时会忍受痛苦。”
+						<br/> 你的财宝其实就在你的身边，但只有经历过一番艰难险阻之后，你才会发现它。“畏惧忍受痛苦比忍受痛苦本身更加糟糕。没有一个心灵在追寻它的梦想时会忍受痛苦。”
+						<br/> 你的财宝其实就在你的身边，但只有经历过一番艰难险阻之后，你才会发现它。
+						<br/>
+					</div>
+					
+					<div  class="box aniview"  id=".a4" data-av-animation="slideInUp">
+						<a href="#"> <img src="img/20.jpg" width="300" height="100" alt="" /> </a>
+						梦想，是对未来的一种期望，指在现在想未来的事或是可以达到但必须努力才可以达到的境况。梦想就是一种让你感到坚持就是幸福的东西，甚至其可以视为一种信仰。 
+					</div>
+					
+					<div  class="box aniview" id=".a5" data-av-animation="fadeIn">
+						<a href="#"> <img src="img/13.jpg" width="300" height="100" alt="" /> </a>
+						梦想，是对未来的一种期望，指在现在想未来的事或是可以达到但必须努力才可以达到的境况。<br/> 梦想就是一种让你感到坚持就是幸福的东西，甚至其可以视为一种信仰。
+					</div>
+					
+					<div  class="box aniview" id=".a6" data-av-animation="slideInUp">
+						<h2><a style="text-decoration: none;color: black;" href="#">白夜行 </a>  </h2> “畏惧忍受痛苦比忍受痛苦本身更加糟糕。没有一个心灵在追寻它的梦想时会忍受痛苦。”
+						<br/> <br/>你的财宝其实就在你的身边，但只有经历过一番艰难险阻之后，你才会发现它。
+					</div>
+				</div>
+			</div>
+
+			<!--end container-->
+			<!--start footer-->
+			<div id="footer">
+				<div id="footer1">
+					<div class="about">
+						<div style="float:right; width:60%;">
+							<img src="img/4.jpg" width="200" height="100">
+							<img src="img/1.jpg" width="200" height="100">
+							<img src="img/3.jpg" width="150" height="100">
+						</div>
+						<p>常用链接</p>
+						<a href="#">事件1</a>
+						<a href="#">事件2</a>
+						<a href="#">事件3</a>
+						<a href="#">事件4</a>
+					</div>
+				</div>
+				<div id="footer2">
+					<div class="about">
+						<ul>
+							<li>
+								<h4><a href="#">新闻概况</a></h4>
+								<a href="#">实用信息</a>
+								<a href="#">实用信息</a>
+								<a href="#"> 实用信息</a>
+								<a href="#"> 实用信息</a>
+							</li>
+							<li>
+								<h4><a href="#">新闻概况</a></h4>
+								<a href="#">实用信息</a>
+								<a href="#">实用信息</a>
+
+							</li>
+							<li>
+								<h4><a href="#">新闻概况</a></h4>
+								<a href="#">实用信息</a>
+								<a href="#">实用信息</a>
+								<a href="#">实用信息</a>
+							</li>
+
+							<li>
+								<h4><a href="#">新闻概况</a></h4>
+								<a href="#">实用信息</a>
+								<a href="#">实用信息</a>
+
+							</li>
+							<li>
+								<h4><a href="#">新闻概况</a></h4>
+								<a href="#">实用信息</a>
+								<a href="#">实用信息</a>
+								<a href="#">实用信息</a>
+							</li>
+							<li>
+								<h4><a href="#">新闻概况</a></h4>
+								<a href="#">实用信息</a>
+								<a href="#">实用信息</a>
+								<a href="#">实用信息</a>
+								<a href="#">实用信息</a>
+							</li>
+
+						</ul>
+					</div>
+
+				</div>
+				<div id="footer3">
+					<div class="about">
+						<a>联系我们：1234567</a>
+						<a>电子邮件：1234@sina.com</a>
+						<a>地址：江西省南昌市湾里区梅岭大道 </a>
+						<p>&copy;精诚工作室网页组版权所有 </p>
+						<p>本网站部分图片来自网络，若作者看到，请尽快联系.</p>
+
+					</div>
+				</div>
+			</div>
+	</body>
+	<script>
+		$(function() {
+			var $container = $('#masonry');
+			$container.masonry({
+				itemSelector: '.box',
+				gutter: 20,
+				isAnimated: true,
+			    });
+			
+		})
+		$(document).ready(function(){
+			    $('.aniview').AniView();
+		});
+	</script>
+</html>
